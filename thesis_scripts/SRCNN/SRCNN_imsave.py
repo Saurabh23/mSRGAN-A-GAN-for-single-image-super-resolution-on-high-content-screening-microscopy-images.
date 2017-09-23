@@ -244,12 +244,5 @@ for epoch_i in range(n_epochs):
 print("Training done. ")    
 
 
-# In[ ]:
-
-
-
-
-# In[ ]:
-
 
 
