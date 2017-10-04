@@ -1,8 +1,8 @@
-// "Batch RGB Merge"
+// "Batch RGB Merge for CYTO 2017 images"
 
 // Opens multiple sets of three separate color channels as
 // an RGB stack or converts them to RGB images. File names
-// ending in "d1", "d2" and "d0" are assumed to be red, green
+// ending in "red.ti", "green.ti" and "blue.ti" are assumed to be red, green
 // and blue channels respectively, but this can be changed in
 // the dialog box.
 
