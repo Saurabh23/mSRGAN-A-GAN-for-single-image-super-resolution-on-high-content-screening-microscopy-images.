@@ -25,7 +25,7 @@ I use the same architecture as SRGAN with the exception that
 
 **2]** Perceptual loss function used is the weighted sum of MSE, content loss and adversarial loss. Weight parameters (alpha, beta) to adjust the importance given to MSE and content loss respectively.
 
-<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/loss.JPG" height="250" width="750" /></p>
+<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/loss.JPG" height="300" width="750" /></p>
 
 
   [SRGAN]: <https://arxiv.org/abs/1609.04802>
