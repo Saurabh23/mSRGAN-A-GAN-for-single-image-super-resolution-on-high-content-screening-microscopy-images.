@@ -1,16 +1,9 @@
-
-# coding: utf-8
-
-# In[1]:
-
 import os
 from os import rename
 import csv
 
 os.chdir("C:/Users/Saurabh/Desktop/_50_/classes/heh")
 
-
-# In[17]:
 
 path = "C:/Users/Saurabh/Desktop/_50_/"   #change for king
 new_path = "C:/Users/Saurabh/Desktop/cyto2017/mito_nui/renamed/"  #change for king
@@ -27,40 +20,24 @@ reader = csv.reader(open("C:/Users/Saurabh/Desktop/_50_/major13soln_hacky.csv", 
 labels = list(reader)
 
 
-# In[4]:
-
 print(labels)
 
 
-# In[10]:
 
 a= files[0]
 print(a)
 
-
-# In[12]:
-
 b = a[:-4].split('.', 3)
 print(b)
-
-
-# In[13]:
 
 c =  "00" + "_"+ b[0] +  '.tif'
 print(c)
 
 
-# In[16]:
 
 os.chdir("C:/Users/Saurabh/Desktop/_50_/classes/heh")
 
 
-# In[ ]:
-
-
-
-
-# In[18]:
 
 for l in labels:    
     #print(l[0])  # 
@@ -379,7 +356,7 @@ for l in labels:
         
 
 
-# In[ ]:
+
 
 
 
