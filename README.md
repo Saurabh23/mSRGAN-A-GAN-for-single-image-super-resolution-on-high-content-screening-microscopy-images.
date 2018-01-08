@@ -16,7 +16,7 @@ This is the first work (to the best of my knowledge), utilizing GAN's for upscal
   
   - **Feature transferability between distant source and target domains in CNN's**: Transferability of features from convnets is inversely proportional to the distance between source and target tasks, ([Bengio et al.], [Azizpour et al.]). Hence, directly using [SRGAN] (which minimises feature representations from a VGG19 trained on Imagenet database of natural images for the content loss) on microscopic images is not a good idea.
 
-<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/dist.JPG" height="250" width="242" /></p>
+<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/dist.JPG" height="300" width="750" /></p>
 
 
 
