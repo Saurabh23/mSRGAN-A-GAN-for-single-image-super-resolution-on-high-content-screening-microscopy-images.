@@ -3,6 +3,6 @@ My masters thesis on Single image super resolution for microscopy images using D
 
 
 
-#+html: <p align="center"><img src="https://github.com/Saurabh23/Single-Image-Super-resolution-for-high-content-screening-images-using-Deep-Learning/blob/master/thesis_scripts/prelim_results/111.gif" /></p>
+<p align="center"><img src="https://github.com/Saurabh23/Single-Image-Super-resolution-for-high-content-screening-images-using-Deep-Learning/blob/master/thesis_scripts/prelim_results/111.gif" height="42" width="42" /></p>
 
 
