@@ -5,7 +5,7 @@ This is the first work (to the best of my knowledge), utilizing GAN's for upscal
 
 
 
-<p align="center"><img src="https://github.com/Saurabh23/Single-Image-Super-resolution-for-high-content-screening-images-using-Deep-Learning/blob/master/thesis_scripts/prelim_results/gif22.gif" height="200" width="342" /></p>
+<p align="center"><img src="https://github.com/Saurabh23/Single-Image-Super-resolution-for-high-content-screening-images-using-Deep-Learning/blob/master/thesis_scripts/prelim_results/gif22.gif" height="300" width="342" /></p>
 
 # Motivation:
 
