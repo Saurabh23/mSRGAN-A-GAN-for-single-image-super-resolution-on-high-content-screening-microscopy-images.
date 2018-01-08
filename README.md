@@ -17,6 +17,11 @@ This is the first work (to the best of my knowledge), utilizing GAN's for upscal
   - **Feature transferability between distant source and target domains in CNN's**: Transferability of features from convnets is inversely proportional to the distance between source and target tasks, ([Bengio et al.], [Azizpour et al.]). Hence, directly using [SRGAN] (which minimises feature representations from a VGG19 trained on Imagenet database of natural images for the content loss) on microscopic images is not a good idea.
 
 
+# Solution:
+
+I use the same architecture as SRGAN with the exception that 
+**1]** Instead of using a pre-trained VGG19 model on Imagenet for the content loss, I train a miniVGG19 from scratch on microscopic images to classify protein sub cellular localizations across 13 classes.
+**2]** Perceptual loss function used is the weighted sum of MSE, content loss and adversarial loss. Weight parameters (alpha, beta) to adjust the importance given to MSE and content loss respectively.
 
 
 
