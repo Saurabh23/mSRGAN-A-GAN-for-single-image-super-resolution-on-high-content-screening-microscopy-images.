@@ -14,7 +14,7 @@ This is the first work (to the best of my knowledge), utilizing GAN's for upscal
  
   - **Inefficiency of the traditional pixel wise Mean squared error (MSE)**: M.S.E has a lot of flaws for generating images, and images produced by MSE do not correlate well with the image quality perceived by a human observer. M.S.E overly penalizes larger errors, while is more forgiving to the small errors ignoring the underlying structure of the image. M.S.E tends to have more local minima which make it challenging to reach convergence towards a better local minimum. Consequently, the most common metric to quantitatively measure the image quality, p.s.n.r, corresponds poorly to a human's perception of an image quality.
   
-  - **Feature transferability issues in CNN's**
+  - **Feature transferability between distant source and target domains in CNN's**
 
 
 
