@@ -12,7 +12,7 @@ import glob
 print ("Packages loaded")
 
 
-############ LOAD DATASET ##############################################
+############ LOAD DATASET #############################################
 
 dirpath = "/home/saurabh/Documents/data/iccv09Data/images/"
 height = 240
