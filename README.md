@@ -21,5 +21,5 @@ This is the first work (to the best of my knowledge), utilizing GAN's for upscal
 
 
   [SRGAN]: <https://arxiv.org/abs/1609.04802>
-  [Bengio et al.] <https://arxiv.org/abs/1411.1792>
-  [Azizpour et al.] <https://arxiv.org/abs/1406.5774>
+  [Bengio et al.]: <https://arxiv.org/abs/1411.1792>
+  [Azizpour et al.]: <https://arxiv.org/abs/1406.5774>
