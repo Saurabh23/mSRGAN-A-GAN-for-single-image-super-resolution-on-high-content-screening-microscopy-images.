@@ -11,7 +11,7 @@ This is the first work (to the best of my knowledge), utilizing GAN's for upscal
 
   - **High content screening image acquisition errors** : Apart from suffering the usual challenges in image acquisition (optical distortions, motion blur, noise etc.), H.C.S images are also prone to a host of domain specific challenges (Photobleaching, Cross talk, Phototoxicity, Uneven illumination, Color/Contrast errors etc.) which might further degrade the quality of the images acquired. Some of these common problems are described in the image below :
  
-<p align="center"><img src=" https://github.com/Saurabh23/Single-Image-Super-resolution-for-high-content-screening-images-using-Deep-Learning/blob/master/thesis_scripts/prelim_results/micro.PNG" height="300" width="300" /></p>
+<p align="center"><img src=" https://github.com/Saurabh23/Single-Image-Super-resolution-for-high-content-screening-images-using-Deep-Learning/blob/master/thesis_scripts/prelim_results/micro.PNG" height="250" width="250" /></p>
  
   - **Inefficiency of the traditional pixel wise Mean squared error (MSE)**
   - **Feature transferability issues in CNN's**
