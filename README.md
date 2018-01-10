@@ -7,6 +7,10 @@ This is the first work (to the best of my knowledge), utilizing GAN's for upscal
 
 <p align="center"><img src="https://github.com/Saurabh23/Single-Image-Super-resolution-for-high-content-screening-images-using-Deep-Learning/blob/master/thesis_scripts/prelim_results/gif22.gif" height="200" width="342" /></p>
 
+# Abstract
+
+Image Super resolution is a widely-studied problem in computer vision, where the objective is to convert a low-resolution image to a high resolution image. Conventional methods for achieving super-resolution such as image priors, interpolation, sparse coding require a lot of pre/post processing and optimization. Recently, deep learning methods such as convolutional neural networks and generative adversarial networks are being used to perform super-resolution with results competitive to the state of the art but none of them have been used on microscopy images. In this thesis, a generative adversarial network, mSRGAN, is proposed for super resolution with a perceptual loss function consisting of a adversarial loss, mean squared error and content loss. The objective of our implementation is to learn an end to end mapping between the low / high resolution images and optimize the upscaled image for quantitative metrics as well as perceptual quality. We  then compare our results with the current state of the art methods in super resolution, conduct a proof of concept segmentation study to show that super resolved images can be used as a effective pre processing step before segmentation and validate the findings statistically.
+
 # Motivation:
 
   - **High content screening image acquisition errors** : Apart from suffering the usual challenges in image acquisition (optical distortions, motion blur, noise etc.), H.C.S images are also prone to a host of domain specific challenges (Photobleaching, Cross talk, Phototoxicity, Uneven illumination, Color/Contrast errors etc.) which might further degrade the quality of the images acquired. 
