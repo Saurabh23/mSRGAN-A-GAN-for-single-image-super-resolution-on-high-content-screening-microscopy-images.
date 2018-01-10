@@ -3,6 +3,8 @@
 
 This is the first work (to the best of my knowledge), utilizing GAN's for upscaling (4x) high content screening microscopy images and optimized for perceptual quality. Inspired by Christian et al.'s [SRGAN], a generative adversarial network, mSRGAN, is proposed for super-resolution with a perceptual loss function consisting of the weighted sum of adversarial loss, mean squared error and content loss. The objective of this implementation is to learn an end to end mapping between the low/ high-resolution images and optimize the upscaled image for quantitative metrics as well as perceptual quality.
 
+This project was presented as a part of my masters thesis at KTH and performed at [Scilifelab], Sweden.
+
 
 
 <p align="center"><img src="https://github.com/Saurabh23/Single-Image-Super-resolution-for-high-content-screening-images-using-Deep-Learning/blob/master/thesis_scripts/prelim_results/gif22.gif" height="200" width="342" /></p>
@@ -41,3 +43,4 @@ I use the same architecture as SRGAN with the exception that
   [SRGAN]: <https://arxiv.org/abs/1609.04802>
   [Bengio et al.]: <https://arxiv.org/abs/1411.1792>
   [Azizpour et al.]: <https://arxiv.org/abs/1406.5774>
+  [Scilifelab]: <https://www.scilifelab.se/>
