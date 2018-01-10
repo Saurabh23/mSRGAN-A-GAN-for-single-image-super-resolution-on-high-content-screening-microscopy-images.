@@ -41,7 +41,7 @@ I use the same architecture as SRGAN with the exception that
 
 # Results
 
-<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/result1.JPG" height="350" width="750" /></p>
+<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/result1.JPG" height="350" width="350" /></p>
 
 
   [SRGAN]: <https://arxiv.org/abs/1609.04802>
