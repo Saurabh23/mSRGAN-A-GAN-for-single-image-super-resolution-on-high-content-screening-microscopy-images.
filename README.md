@@ -39,6 +39,12 @@ I use the same architecture as SRGAN with the exception that
 
 <p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/loss.JPG" height="350" width="750" /></p>
 
+# Requirements
+
+- Python 3
+- Tensorflow 1.1
+- OpenCV
+
 # Results
 
 <p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/result1.JPG" height="650" width="650" /></p>
