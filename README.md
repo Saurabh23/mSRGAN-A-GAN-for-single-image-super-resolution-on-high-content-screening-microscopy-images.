@@ -49,7 +49,7 @@ I use the same architecture as SRGAN with the exception that
 
 ## 1. Train the miniVGG19 from scratch to classify protein sub cellular localisations across 13 classes 
 
-Download the CYTO2017 dataset images
+Download the CYTO2017 dataset images [here]
 
 
 Train the miniVGG19 by:
@@ -62,7 +62,7 @@ The trained miniVGG19 model will be stored in "vgg19/backup".
 
 ## II. Train the mSRGAN (ResNet-Generator and Discriminator) model.
 
-Use the same CYTO2017 dataset
+Use the same CYTO2017 dataset 
 
 Train with:
 
@@ -85,3 +85,4 @@ The results will be stored in "src/result" and the model will be stored in "src/
   [Bengio et al.]: <https://arxiv.org/abs/1411.1792>
   [Azizpour et al.]: <https://arxiv.org/abs/1406.5774>
   [Scilifelab]: <https://www.scilifelab.se/>
+  [here] :<https://www.dropbox.com/sh/5yx2wnb42grikb1/AACj99tJKW6pqmpK_elJXKlxa?dl=0>
