@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 import skimage
 from load import load
-from srgan_imagenet import SRGAN
+from srgan import SRGAN
 
 learning_rate =1e-4
 d_learning_rate  =1e-3
