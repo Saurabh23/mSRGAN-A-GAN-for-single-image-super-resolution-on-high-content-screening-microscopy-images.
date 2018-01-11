@@ -78,7 +78,11 @@ The results will be stored in "src/result" and the model will be stored in "src/
 
 <p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/Capture2.JPG" height="650" width="650" /></p>
 
+<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/000000012.jpg" height="350" width="350" /></p>
 
+<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/000000016.jpg" height="350" width="350" /></p>
+
+<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/000000017.jpg" height="350" width="350" /></p>
 
 
   [SRGAN]: <https://arxiv.org/abs/1609.04802>
