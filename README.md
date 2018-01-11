@@ -39,11 +39,26 @@ I use the same architecture as SRGAN with the exception that
 
 <p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/loss.JPG" height="350" width="750" /></p>
 
-# Requirements
+# Dependency
 
 - Python 3
 - Tensorflow 1.1
 - OpenCV
+
+# Usage
+
+## 1. Train the miniVGG19 from scratch to classify protein sub cellular localisations across 13 classes 
+
+Download the CYTO2017 dataset images
+
+
+Train the miniVGG19 by:
+
+```
+$ python mSRGAN/vgg19/train.py
+```
+
+The trained miniVGG19 model will be stored in "vgg19/model".
 
 # Results
 
