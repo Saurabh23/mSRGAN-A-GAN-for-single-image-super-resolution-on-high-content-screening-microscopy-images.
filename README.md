@@ -112,6 +112,19 @@ The losses for the generator and discriminator (After numerous attempts and hack
 
 <p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/g1.JPG" height="550" width="750" /></p>
 
+# Sources:
+
+1. [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network]
+2. [Perceptual Losses for Real-Time Style Transfer and Super-Resolution]
+3. [Generative Adversarial Networks: An Overview]
+4. [github.com/tadax/srgan]
+
+
+  [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network]: <https://arxiv.org/abs/1609.04802>
+  [Perceptual Losses for Real-Time Style Transfer and Super-Resolution]: <https://arxiv.org/abs/1603.08155>
+  [Generative Adversarial Networks: An Overview]: <https://arxiv.org/abs/1710.07035>
+  [github.com/tadax/srgan]: <https://github.com/tadax/srgan>
+  [https://github.com/ruiann/SRGAN]: <[https://github.com/ruiann/SRGAN]>
   [SRGAN]: <https://arxiv.org/abs/1609.04802>
   [Bengio et al.]: <https://arxiv.org/abs/1411.1792>
   [Azizpour et al.]: <https://arxiv.org/abs/1406.5774>
