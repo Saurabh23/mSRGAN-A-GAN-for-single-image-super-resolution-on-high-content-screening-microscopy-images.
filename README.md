@@ -124,7 +124,7 @@ The losses for the generator and discriminator (After numerous attempts and hack
   [Perceptual Losses for Real-Time Style Transfer and Super-Resolution]: <https://arxiv.org/abs/1603.08155>
   [Generative Adversarial Networks: An Overview]: <https://arxiv.org/abs/1710.07035>
   [github.com/tadax/srgan]: <https://github.com/tadax/srgan>
-  [github.com/sjchoi86/advanced-tensorflow]: <[https://github.com/sjchoi86/advanced-tensorflow]>
+  [github.com/sjchoi86/advanced-tensorflow]: <https://github.com/sjchoi86/advanced-tensorflow>
   [https://github.com/ruiann/SRGAN]: <[https://github.com/ruiann/SRGAN]>
   [SRGAN]: <https://arxiv.org/abs/1609.04802>
   [Bengio et al.]: <https://arxiv.org/abs/1411.1792>
