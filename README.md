@@ -81,6 +81,11 @@ The results will be stored in "src/result" and the model will be stored in "src/
 <p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/16.JPG" height="250" width="590" /></p>
 <p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/17.JPG" height="250" width="600" /></p>
 
+# Losses Visualised
+
+The losses for the generator and discriminator should look something like this 
+
+<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/g1.JPG" height="650" width="680" /></p>
 
   [SRGAN]: <https://arxiv.org/abs/1609.04802>
   [Bengio et al.]: <https://arxiv.org/abs/1411.1792>
