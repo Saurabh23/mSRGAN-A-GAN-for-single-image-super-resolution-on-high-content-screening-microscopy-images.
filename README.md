@@ -61,7 +61,7 @@ The 96x96x3 images are then downscaled using bicubic interpolation by a factor o
 
 ## Architecture
 
-<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/srgan.jpeg" height="650" width="750" /></p>
+<p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/srgan.jpeg" height="610" width="750" /></p>
 
 
 # Dependency
