@@ -118,12 +118,13 @@ The losses for the generator and discriminator (After numerous attempts and hack
 2. [Perceptual Losses for Real-Time Style Transfer and Super-Resolution]
 3. [Generative Adversarial Networks: An Overview]
 4. [github.com/tadax/srgan]
-
+5. [https://github.com/sjchoi86/advanced-tensorflow]
 
   [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network]: <https://arxiv.org/abs/1609.04802>
   [Perceptual Losses for Real-Time Style Transfer and Super-Resolution]: <https://arxiv.org/abs/1603.08155>
   [Generative Adversarial Networks: An Overview]: <https://arxiv.org/abs/1710.07035>
   [github.com/tadax/srgan]: <https://github.com/tadax/srgan>
+  [github.com/sjchoi86/advanced-tensorflow]: <[https://github.com/sjchoi86/advanced-tensorflow]>
   [https://github.com/ruiann/SRGAN]: <[https://github.com/ruiann/SRGAN]>
   [SRGAN]: <https://arxiv.org/abs/1609.04802>
   [Bengio et al.]: <https://arxiv.org/abs/1411.1792>
