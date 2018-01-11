@@ -85,7 +85,7 @@ $ python mSRGAN/vgg19/train.py
 
 The trained miniVGG19 model will be stored in "vgg19/backup".
 
-## II. Train the mSRGAN (ResNet-Generator and Discriminator) model.
+## II. Train the mSRGAN model.
 
 Use the same CYTO2017 dataset 
 
