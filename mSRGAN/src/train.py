@@ -17,15 +17,11 @@ img_dim = 96
 vgg_model = '../vgg19/backup/latest'
 
 def train():
-   # set.seed(50)
+  
     model = SRGAN()
     tf.summary.scalar("generatorloss", model.g_loss)
     tf.summary.scalar("discrimantorloss", model.d_loss)
-   # tf.summary.scalar("D loss Fake",model.d_loss_fake)
-   # tf.summary.scalar("D loss Real",model.d_loss_real)
-    #tf.summary.:wqscalar("contentloss",content_loss)
-   # tf.summary.image("GEN SR TEST",fake)
-   # tf.summary.image("LR TEST", mos)
+  
     merged_summary_op = tf.summary.merge_all()
     sess = tf.Session()
     with tf.variable_scope('srgan'):
@@ -55,8 +51,7 @@ def train():
     # Loading the data
     x_train = load('cyto/train')
     x_test = load('cyto/test')
-   # x_train = load('dementer/users/saurabh/lfw/train')
-   # x_test = load('dementer/users/saurabh/lfw/test')
+  
 
     # Train the SRGAN model
     n_iter = int(np.ceil(len(x_train) / batch_size))
@@ -76,17 +71,7 @@ def train():
             x_batch = x_train[i * batch_size:(i + 1) * batch_size]
            # x_batch = x_test[i*batch+size:(i+1)*batch_size]
             opt, summary = sess.run([g_train_op,merged_summary_op], feed_dict={model.x: x_batch, model.is_training: True})
-            #summary_writer.add_summary(summary, epoch_i * total_batch + batch_i) 
-           # tf.summary.image('testhr',sess.run([model.imitation], feed_dict={model.x:x_test[:batch_size],model.is_training:False}) )
-           # mos, fake = sess.run([model.downscaled, model.imitation], feed_dict = {model.x:x_test[:batch_size], model.is_training: False})
-           # tf.summary.image("Gen SR TEST", fake)
-           # tf.summary.image("LR teSt", mos)
-           # print(mos)
-           # validate(x_test, epoch, model,sess)
-           # raw = x_test[:batch_size]
-           # mos,fake = sess.run([model.downscaled, model.imitation], feed_dict = {model.x:raw, model.is_training:False})
-           # tf.summary.image("GEN HR TEST",fake)
-           # tf.summary.image("LR TEST", mos)
+           
             summary_writer.add_summary(summary, epoch * n_iter + i)
            # sess.run([g_train_op, d_train_op], feed_dict={model.x: x_batch, model.is_training: True})
            # saveimg([mos, fake, raw], ['Input test','Output test','Truth test'], epoch)
@@ -97,8 +82,7 @@ def train():
            # tf.summary.image("Gen SR TEST", fake)
            # tf.summary.image("LR TEST", mos)
            # print("valid")
-        # Validate
-          # validate(x_test, epoch, model, sess)
+ 
 
         # Save the model
         saver = tf.train.Saver()
@@ -116,18 +100,12 @@ def saveimg(imgs, label, epoch):
     for i in range(batch_size):
         fig = plt.figure()
         for j, img in enumerate(imgs):
-           # print("the min is ",img[i].min())
-           # print("the max is",img[i].max())
-           # im = skimage.img_as_ubyte(img[i], force_copy=False)
-           # im = np.uint8((img[i] + 1.5)*127.5 )
-           # print("The min is ",im.min())
+          
+         
             img[i] =  np.clip(img[i],-1,1)
-            print("The min is",img[i].min())
+            
             im = np.uint8((img[i] + 1)*127.5)
-           # im = im32.astype('uint8')        
-           # im = tf.cast(img[i], tf.uint8)
-           # im = tf.image_convert_image_dtype(img[i], tf.uint8)
-           # print(im)
+           
             fig.add_subplot(1, len(imgs), j+1)
             plt.imshow(im)
             plt.tick_params(labelbottom='off')
