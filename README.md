@@ -85,4 +85,4 @@ The results will be stored in "src/result" and the model will be stored in "src/
   [Bengio et al.]: <https://arxiv.org/abs/1411.1792>
   [Azizpour et al.]: <https://arxiv.org/abs/1406.5774>
   [Scilifelab]: <https://www.scilifelab.se/>
-  [here] :<https://www.dropbox.com/sh/5yx2wnb42grikb1/AACj99tJKW6pqmpK_elJXKlxa?dl=0>
+  [here]: <https://www.dropbox.com/sh/5yx2wnb42grikb1/AACj99tJKW6pqmpK_elJXKlxa?dl=0>
