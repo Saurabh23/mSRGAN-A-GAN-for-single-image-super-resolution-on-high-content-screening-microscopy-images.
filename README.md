@@ -59,7 +59,7 @@ The dataset consists of separate .tiff images for individual stains, and I merge
 The resulting merged RGB images are then converted to .png which ensures lossless compression and finally resized to 96x96x3.
 The 96x96x3 images are then downscaled using bicubic interpolation by a factor of 4, and the resulting 24x24x3 images are used as the input to the GAN.
 
-## Architecture
+## mSRGAN Architecture
 
 <p align="center"><img src="https://github.com/Saurabh23/mSRGAN-A-GAN-for-single-image-super-resolution-on-high-content-screening-microscopy-images./blob/master/thesis_scripts/images/srgan.jpeg" height="580" width="750" /></p>
 
