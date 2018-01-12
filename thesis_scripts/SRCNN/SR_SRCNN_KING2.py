@@ -260,6 +260,4 @@ print("the TEST error is:......", err2)
 #plt.show()
 
 
-#screen
 
-#detach
