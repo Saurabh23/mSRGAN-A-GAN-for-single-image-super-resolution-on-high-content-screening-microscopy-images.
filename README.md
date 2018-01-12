@@ -83,7 +83,7 @@ Train the miniVGG19 by:
 $ python mSRGAN/vgg19/train.py
 ```
 
-The trained miniVGG19 model will be stored in "vgg19/backup".
+The trained miniVGG19 model will be stored in "vgg19/backup". You download my pre-trained [minivgg19 model] 
 
 ## II. Train the mSRGAN model.
 
@@ -95,7 +95,7 @@ Train with:
 $ python mSRGAN/srgan/train.py
 ```
 
-The results will be stored in "src/result" and the model will be stored in "src/backup".
+The results will be stored in "src/result" and the model will be stored in "src/backup". You download my pre-trained [mSRGAN model]
 
 # Results
 
@@ -131,3 +131,5 @@ The losses for the generator and discriminator (After numerous attempts and hack
   [Azizpour et al.]: <https://arxiv.org/abs/1406.5774>
   [Scilifelab]: <https://www.scilifelab.se/>
   [here]: <https://www.dropbox.com/sh/5yx2wnb42grikb1/AACj99tJKW6pqmpK_elJXKlxa?dl=0>
+  [minivgg19 model]: <https://www.dropbox.com/sh/pntavt13gnkiihb/AADDSFgbEFthrfmXnOxM-E4ga?dl=0>
+  [mSRGAN model]: <https://www.dropbox.com/sh/nxka4zc0debz87i/AACbRoaFfz5auL83SdSYUYzSa?dl=0>
