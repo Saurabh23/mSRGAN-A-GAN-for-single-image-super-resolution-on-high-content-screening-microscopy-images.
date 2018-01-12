@@ -53,7 +53,7 @@ I used the fluorescence microscopy images from the Human Protein atlas database 
 The dataset consists of separate .tiff images for individual stains, and I merge these images into a single RGB image with the channels assigned as:
 - R - Antibody-based staining of microtubules
 - G - Protein localizations
-- B - DAPI staining of the nucleus\\
+- B - DAPI staining of the nucleus
 - The yellow channel representing Endoplasmic reticulum stained images is discarded.
 
 The resulting merged RGB images are then converted to .png which ensures lossless compression and finally resized to 96x96x3.
