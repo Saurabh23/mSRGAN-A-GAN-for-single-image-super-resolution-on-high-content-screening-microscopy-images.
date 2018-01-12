@@ -83,7 +83,7 @@ Train the miniVGG19 by:
 $ python mSRGAN/vgg19/train.py
 ```
 
-The trained miniVGG19 model will be stored in "vgg19/backup". You download my pre-trained [minivgg19 model] 
+The trained miniVGG19 model will be stored in "vgg19/backup". You can download my pre-trained [minivgg19 model] 
 
 ## II. Train the mSRGAN model.
 
@@ -95,7 +95,7 @@ Train with:
 $ python mSRGAN/srgan/train.py
 ```
 
-The results will be stored in "src/result" and the model will be stored in "src/backup". You download my pre-trained [mSRGAN model]
+The results will be stored in "src/result" and the model will be stored in "src/backup". You can download my pre-trained [mSRGAN model]
 
 # Results
 
